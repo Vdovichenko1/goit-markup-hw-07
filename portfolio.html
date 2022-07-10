@@ -10,23 +10,26 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <header>
-        <div class="container main-nav">
-            <nav class="main-nav">
-                <a href="./index.html" class="logo"><span>Web</span>Studio</a>
+    <header class="page-header">
+        <div class="container nav">
+            <nav class="nav">
+                <a href="./index.html" class="nav-logo"><span>Web</span>Studio</a>
                 <ul class="site-nav">
-                    <li class="item"> <a href="./index.html" class="link">Студия</a> </li>
-                    <li class="item"> <a href="./portfolio.html" class="link current">Портфолио</a> </li>
-                    <li class="item"> <a href="" class="link">Контакты</a> </li>
+                    <li class="site-nav__item"> <a href="./index.html" class="site-nav__link">Студия</a>
+                    </li>
+                    <li class="site-nav__item"> <a href="./portfolio.html" class="site-nav__link site-nav__current">Портфолио</a> </li>
+                    <li class="site-nav__item"> <a href="" class="site-nav__link">Контакты</a> </li>
                 </ul>
             </nav>
-            <ul class="site-cont">
-                <li class="item">
-                    <a href="mailto:info@devstudio.com" class="link"> <svg class="icon" width="20" height="14">
+            <ul class="contacts">
+                <li class="contacts-item">
+                    <a href="mailto:info@devstudio.com" class="contacts-link"> <svg class="contacts-icon" width="20"
+                            height="14">
                             <use href="./images/symbol-defs.svg#icon-email"></use>
                         </svg> info@devstudio.com</a>
                 </li>
-                <li class="item"> <a href="tel:+380961111111" class="link"> <svg class="icon" width="16" height="18">
+                <li class="contacts-item"> <a href="tel:+380961111111" class="contacts-link"> <svg class="contacts-icon"
+                            width="16" height="18">
                             <use href="./images/symbol-defs.svg#icon-phone"></use>
                         </svg> +38 096 111 11 11</a>
                 </li>
@@ -44,7 +47,7 @@
                     <li class="btn-fil"><button type="button" class="button-filter">Дизайн</button></li>
                     <li class="btn-fil"><button type="button" class="button-filter">Маркетинг</button></li>
                 </ul>
-                <ul class="work-quality card">
+                <ul class="quality card">
                     <li class="flex-element"> 
                         <div class="product">
                             <img class="no-gap" src="./images/macbookpro.jpg" alt="macbookpro" width="370" height="294">
@@ -53,7 +56,7 @@
                         </div>
                         <div class="example">
                             <h2 class="name-project">Технокряк</h2>
-                            <p class="quality">Веб-сайт</p>
+                            <p class="quality-text">Веб-сайт</p>
                         </div>
                     </li>
                     <li class="flex-element"> 
@@ -64,7 +67,7 @@
                         </div>
                         <div class="example">
                             <h2 class="name-project">Постер New Orlean vs Golden Star</h2>
-                            <p class="quality">Дизайн</p>
+                            <p class="quality-text">Дизайн</p>
                         </div>
                     </li>
                     <li class="flex-element"> 
@@ -76,7 +79,7 @@
                         </div>
                         <div class="example">
                             <h2 class="name-project">Ресторан Seafood</h2>
-                            <p class="quality">Приложение</p>
+                            <p class="quality-text">Приложение</p>
                         </div>
                     </li>
                     <li class="flex-element">
@@ -88,7 +91,7 @@
                         </div>
                         <div class="example">
                             <h2 class="name-project">Проект Prime</h2>
-                            <p class="quality">Маркетинг</p>
+                            <p class="quality-text">Маркетинг</p>
                         </div>
                     </li>
                     <li class="flex-element">
@@ -100,7 +103,7 @@
                         </div>
                         <div class="example">
                             <h2 class="name-project">Проект Boxes</h2>
-                            <p class="quality">Приложение</p>
+                            <p class="quality-text">Приложение</p>
                         </div>
                     </li>
                     <li class="flex-element">
@@ -112,7 +115,7 @@
                         </div>
                         <div class="example">
                             <h2 class="name-project">Inspiration has no Borders</h2>
-                            <p class="quality">Веб-сайт</p>
+                            <p class="quality-text">Веб-сайт</p>
                         </div>
                     </li>
                     <li class="flex-element">
@@ -124,7 +127,7 @@
                         </div>
                         <div class="example">
                             <h2 class="name-project">Издание Limited Edition</h2>
-                            <p class="quality">Дизайн</p>
+                            <p class="quality-text">Дизайн</p>
                         </div>
                     </li>
                     <li class="flex-element">
@@ -136,7 +139,7 @@
                         </div>
                         <div class="example">
                             <h2 class="name-project">Проект LAB</h2>
-                            <p class="quality">Маркетинг</p>
+                            <p class="quality-text">Маркетинг</p>
                         </div>
                     </li>
                     <li class="flex-element">
@@ -148,7 +151,7 @@
                         </div>
                         <div class="example">
                             <h2 class="name-project">Growing Business</h2>
-                            <p class="quality">Приложение</p>
+                            <p class="quality-text">Приложение</p>
                         </div>
                     </li>
                 </ul>
@@ -211,7 +214,7 @@
                     <label for="email-2">
                         <input class="input-email" type="text" name="email-2" placeholder="E-mail" id="email-2" />
                     </label>
-                    <button class="button-order btn-subscribe" type="submit">Подписаться
+                    <button class="page-buttons btn-subscribe" type="submit">Подписаться
                         <svg class="icon-send">
                             <use href="./images/icons.svg#icon-icon-send"></use>
                         </svg>
