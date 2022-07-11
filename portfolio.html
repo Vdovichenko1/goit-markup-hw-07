@@ -13,7 +13,7 @@
     <header class="page-header">
         <div class="container nav">
             <nav class="nav">
-                <a href="./index.html" class="nav-logo"><span>Web</span>Studio</a>
+                <a href="./index.html" class="nav__logo"><span class="nav__logo--color">Web</span>Studio</a>
                 <ul class="site-nav">
                     <li class="site-nav__item"> <a href="./index.html" class="site-nav__link">Студия</a>
                     </li>
@@ -22,13 +22,13 @@
                 </ul>
             </nav>
             <ul class="contacts">
-                <li class="contacts-item">
-                    <a href="mailto:info@devstudio.com" class="contacts-link"> <svg class="contacts-icon" width="20"
+                <li class="contacts__item">
+                    <a href="mailto:info@devstudio.com" class="contacts__link"> <svg class="contacts__icon" width="20"
                             height="14">
                             <use href="./images/symbol-defs.svg#icon-email"></use>
                         </svg> info@devstudio.com</a>
                 </li>
-                <li class="contacts-item"> <a href="tel:+380961111111" class="contacts-link"> <svg class="contacts-icon"
+                <li class="contacts__item"> <a href="tel:+380961111111" class="contacts__link"> <svg class="contacts__icon"
                             width="16" height="18">
                             <use href="./images/symbol-defs.svg#icon-phone"></use>
                         </svg> +38 096 111 11 11</a>
@@ -37,185 +37,186 @@
         </div>
     </header>
     <main>
-        <section class="section box">
+        <section class="section">
             <div class="container">
                 <h1 class="hidden">Наши работы</h1>
-                <ul class="btn">
-                    <li class="btn-fil"><button type="button" class="button-filter">Все</button></li>
-                    <li class="btn-fil"><button type="button" class="button-filter">Веб-сайты</button></li>
-                    <li class="btn-fil"><button type="button" class="button-filter">Приложения</button></li>
-                    <li class="btn-fil"><button type="button" class="button-filter">Дизайн</button></li>
-                    <li class="btn-fil"><button type="button" class="button-filter">Маркетинг</button></li>
+                <ul class="portfolio-button">
+                    <li class="portfolio-button__list"><button type="button" class="portfolio-button__filter">Все</button></li>
+                    <li class="portfolio-button__list"><button type="button" class="portfolio-button__filter">Веб-сайты</button></li>
+                    <li class="portfolio-button__list"><button type="button" class="portfolio-button__filter">Приложения</button></li>
+                    <li class="portfolio-button__list"><button type="button" class="portfolio-button__filter">Дизайн</button></li>
+                    <li class="portfolio-button__list"><button type="button" class="portfolio-button__filter">Маркетинг</button></li>
                 </ul>
-                <ul class="quality card">
-                    <li class="flex-element"> 
-                        <div class="product">
-                            <img class="no-gap" src="./images/macbookpro.jpg" alt="macbookpro" width="370" height="294">
-                            <p class="product-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить
+                <ul class="portfolio-example">
+                    <li class="portfolio-example__list"> 
+                        <div class="portfolio-example__animation">
+                            <img class="portfolio-example__gallery" src="./images/macbookpro.jpg" alt="macbookpro" width="370" height="294">
+                            <p class="portfolio-example__description">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить
                             исчерпывающие сведения о компании или частном лице.</p>
                         </div>
-                        <div class="example">
-                            <h2 class="name-project">Технокряк</h2>
-                            <p class="quality-text">Веб-сайт</p>
+                        <div class="portfolio-example__label">
+                            <h2 class="portfolio-example__name">Технокряк</h2>
+                            <p class="portfolio-example__text">Веб-сайт</p>
                         </div>
                     </li>
-                    <li class="flex-element"> 
-                        <div class="product">
-                            <img class="no-gap" src="./images/basketball.jpg" alt="basketball" width="370" height="294">
-                            <p class="product-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить
+                    <li class="portfolio-example__list"> 
+                        <div class="portfolio-example__animation">
+                            <img class="portfolio-example__gallery" src="./images/basketball.jpg" alt="basketball" width="370" height="294">
+                            <p class="portfolio-example__description">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить
                             исчерпывающие сведения о компании или частном лице.</p>
                         </div>
-                        <div class="example">
-                            <h2 class="name-project">Постер New Orlean vs Golden Star</h2>
-                            <p class="quality-text">Дизайн</p>
+                        <div class="portfolio-example__label">
+                            <h2 class="portfolio-example__name">Постер New Orlean vs Golden Star</h2>
+                            <p class="portfolio-example__text">Дизайн</p>
                         </div>
                     </li>
-                    <li class="flex-element"> 
-                        <div class="product">
-                            <img class="no-gap" src="./images/restaurant.jpg" alt="restaurant" width="370" height="294">
-                            <p class="product-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это
+                    <li class="portfolio-example__list"> 
+                        <div class="portfolio-example__animation">
+                            <img class="portfolio-example__gallery" src="./images/restaurant.jpg" alt="restaurant" width="370" height="294">
+                            <p class="portfolio-example__description">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это
                                 позволит посетителю получить
                                 исчерпывающие сведения о компании или частном лице.</p>
                         </div>
-                        <div class="example">
-                            <h2 class="name-project">Ресторан Seafood</h2>
-                            <p class="quality-text">Приложение</p>
+                        <div class="portfolio-example__label">
+                            <h2 class="portfolio-example__name">Ресторан Seafood</h2>
+                            <p class="portfolio-example__text">Приложение</p>
                         </div>
                     </li>
-                    <li class="flex-element">
-                        <div class="product">
-                            <img class="no-gap" src="./images/headphones.jpg" alt="headphones" width="370" height="294">
-                            <p class="product-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это
+                    <li class="portfolio-example__list">
+                        <div class="portfolio-example__animation">
+                            <img class="portfolio-example__gallery" src="./images/headphones.jpg" alt="headphones" width="370" height="294">
+                            <p class="portfolio-example__description">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это
                                 позволит посетителю получить
                                 исчерпывающие сведения о компании или частном лице.</p>
                         </div>
-                        <div class="example">
-                            <h2 class="name-project">Проект Prime</h2>
-                            <p class="quality-text">Маркетинг</p>
+                        <div class="portfolio-example__label">
+                            <h2 class="portfolio-example__name">Проект Prime</h2>
+                            <p class="portfolio-example__text">Маркетинг</p>
                         </div>
                     </li>
-                    <li class="flex-element">
-                        <div class="product">
-                            <img class="no-gap" src="./images/boxes.jpg" alt="boxes" width="370" height="294">
-                            <p class="product-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это
+                    <li class="portfolio-example__list">
+                        <div class="portfolio-example__animation">
+                            <img class="portfolio-example__gallery" src="./images/boxes.jpg" alt="boxes" width="370" height="294">
+                            <p class="portfolio-example__description">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это
                                 позволит посетителю получить
                                 исчерпывающие сведения о компании или частном лице.</p>
                         </div>
-                        <div class="example">
-                            <h2 class="name-project">Проект Boxes</h2>
-                            <p class="quality-text">Приложение</p>
+                        <div class="portfolio-example__label">
+                            <h2 class="portfolio-example__name">Проект Boxes</h2>
+                            <p class="portfolio-example__text">Приложение</p>
                         </div>
                     </li>
-                    <li class="flex-element">
-                        <div class="product">
-                            <img class="no-gap" src="./images/monitor.jpg" alt="monitor" width="370" height="294">
-                            <p class="product-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это
+                    <li class="portfolio-example__list">
+                        <div class="portfolio-example__animation">
+                            <img class="portfolio-example__gallery" src="./images/monitor.jpg" alt="monitor" width="370" height="294">
+                            <p class="portfolio-example__description">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это
                                 позволит посетителю получить
                                 исчерпывающие сведения о компании или частном лице.</p>
                         </div>
-                        <div class="example">
-                            <h2 class="name-project">Inspiration has no Borders</h2>
-                            <p class="quality-text">Веб-сайт</p>
+                        <div class="portfolio-example__label">
+                            <h2 class="portfolio-example__name">Inspiration has no Borders</h2>
+                            <p class="portfolio-example__text">Веб-сайт</p>
                         </div>
                     </li>
-                    <li class="flex-element">
-                        <div class="product">
-                            <img class="no-gap" src="./images/magazine.jpg" alt="magazine" width="370" height="294">
-                            <p class="product-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это
+                    <li class="portfolio-example__list">
+                        <div class="portfolio-example__animation">
+                            <img class="portfolio-example__gallery" src="./images/magazine.jpg" alt="magazine" width="370" height="294">
+                            <p class="portfolio-example__description">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это
                                 позволит посетителю получить
                                 исчерпывающие сведения о компании или частном лице.</p>
                         </div>
-                        <div class="example">
-                            <h2 class="name-project">Издание Limited Edition</h2>
-                            <p class="quality-text">Дизайн</p>
+                        <div class="portfolio-example__label">
+                            <h2 class="portfolio-example__name">Издание Limited Edition</h2>
+                            <p class="portfolio-example__text">Дизайн</p>
                         </div>
                     </li>
-                    <li class="flex-element">
-                        <div class="product">
-                            <img class="no-gap" src="./images/label.jpg" alt="label" width="370" height="294">
-                            <p class="product-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это
+                    <li class="portfolio-example__list">
+                        <div class="portfolio-example__animation">
+                            <img class="portfolio-example__gallery" src="./images/label.jpg" alt="label" width="370" height="294">
+                            <p class="portfolio-example__description">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это
                                 позволит посетителю получить
                                 исчерпывающие сведения о компании или частном лице.</p>
                         </div>
-                        <div class="example">
-                            <h2 class="name-project">Проект LAB</h2>
-                            <p class="quality-text">Маркетинг</p>
+                        <div class="portfolio-example__label">
+                            <h2 class="portfolio-example__name">Проект LAB</h2>
+                            <p class="portfolio-example__text">Маркетинг</p>
                         </div>
                     </li>
-                    <li class="flex-element">
-                        <div class="product">
-                            <img class="no-gap" src="./images/laptop.jpg" alt="laptop" width="370" height="294">
-                            <p class="product-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это
+                    <li class="portfolio-example__list">
+                        <div class="portfolio-example__animation">
+                            <img class="portfolio-example__gallery" src="./images/laptop.jpg" alt="laptop" width="370" height="294">
+                            <p class="portfolio-example__description">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это
                                 позволит посетителю получить
                                 исчерпывающие сведения о компании или частном лице.</p>
                         </div>
-                        <div class="example">
-                            <h2 class="name-project">Growing Business</h2>
-                            <p class="quality-text">Приложение</p>
+                        <div class="portfolio-example__label">
+                            <h2 class="portfolio-example__name">Growing Business</h2>
+                            <p class="portfolio-example__text">Приложение</p>
                         </div>
                     </li>
                 </ul>
             </div>
         </section>
     </main>
-    <footer class="ftr">
-        <div class="container main-foot">
-            <section class="foot">
-                <a href="./index.html" class="foot-web"><span>Web</span>Studio</a>
-                <address class="foot-adress">
-                    <ul class="site-ft">
-                        <li class="ft-cont"> <a href="https://goo.gl/maps/F9UGEikjTN2jMp9C9" target="_blank"
-                                class="adress link">г.
+    <footer class="footer">
+        <div class="container footer__main">
+            <section class="footer__section">
+                <a href="./index.html" class="footer__logo"><span class="footer__logo--color">Web</span>Studio</a>
+                <address class="footer-address">
+                    <ul class="footer-address__contacts">
+                        <li class="footer-address__list"> <a href="https://goo.gl/maps/F9UGEikjTN2jMp9C9" target="_blank"
+                                class="footer-address__link footer-address--color">г.
                                 Киев, пр-т Леси Украинки, 26</a> </li>
-                        <li class="ft-cont"> <a href="mailto:info@devstudio.com"
-                                class="footer-contact link">info@devstudio.com</a>
+                        <li class="footer-address__list"> <a href="mailto:info@devstudio.com"
+                                class="footer-address__link ">info@devstudio.com</a>
                         </li>
-                        <li class="ft-cont"> <a href="tel:+380961111111" class="footer-contact link">+38 096 111 11 11</a>
-                        </li>
+                        <li class="footer-address__list"> <a href="tel:+380961111111" class="footer-address__link">+38 096
+                                111 11 11</a> </li>
                     </ul>
                 </address>
             </section>
-            <section class="connect-end">
-                <h2 class="connect">Присоединяйтесь</h2>
-                <ul class="icon-list">
-                    <li class="icon-foot">
-                        <a class="link-foot" href="">
-                            <svg class="foot-icon">
+            <section class="footer-network">
+                <h2 class="footer-network__title">Присоединяйтесь</h2>
+                <ul class="footer-network__scroll">
+                    <li class="footer-network__list">
+                        <a class="footer-network__link" href="">
+                            <svg class="footer-network__icon">
                                 <use href="./images/symbol-defs.svg#icon-instagram"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="icon-foot">
-                        <a class="link-foot" href="">
-                            <svg class="foot-icon">
+                    <li class="footer-network__list">
+                        <a class="footer-network__link" href="">
+                            <svg class="footer-network__icon">
                                 <use href="./images/symbol-defs.svg#icon-twitter"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="icon-foot">
-                        <a class="link-foot" href="">
-                            <svg class="foot-icon">
+                    <li class="footer-network__list">
+                        <a class="footer-network__link" href="">
+                            <svg class="footer-network__icon">
                                 <use href="./images/symbol-defs.svg#icon-facebook"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="icon-foot">
-                        <a class="link-foot" href="">
-                            <svg class="foot-icon">
+                    <li class="footer-network__list">
+                        <a class="footer-network__link" href="">
+                            <svg class="footer-network__icon">
                                 <use href="./images/symbol-defs.svg#icon-linkedin"></use>
                             </svg>
                         </a>
                     </li>
                 </ul>
             </section>
-            <form class="newsletter">
-                <h2 class="connect">Подпишитесь на рассылку</h2>
-                <div class="subscribe">
+            <form class="footer-newsletter">
+                <h2 class="footer-newsletter__title">Подпишитесь на рассылку</h2>
+                <div class="footer-newsletter__subscribe">
                     <label for="email-2">
-                        <input class="input-email" type="text" name="email-2" placeholder="E-mail" id="email-2" />
+                        <input class="footer-newsletter__email" type="text" name="email-2" placeholder="E-mail"
+                            id="email-2" />
                     </label>
-                    <button class="page-buttons btn-subscribe" type="submit">Подписаться
-                        <svg class="icon-send">
+                    <button class="page-buttons footer-newsletter__btn" type="submit">Подписаться
+                        <svg class="footer-newsletter__icon">
                             <use href="./images/icons.svg#icon-icon-send"></use>
                         </svg>
                     </button>
